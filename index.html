@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rental Price Prediction</title>
+</head>
+<body style="background: #000;">
+    <div class="login">
+        <h1 style="color:Violet;">Rental Price Prediction</h1>
+
+        <!-- Form for inputting rental prediction features -->
+        <form action="{{ url_for('predict') }}" method="post">
+            <input type="text" name="price_per_night" placeholder="Price per Night" required="required" /><br>
+            <input type="text" name="neighbourhood_group_Manhattan" placeholder="Is in Manhattan? (0 or 1)" required="required" /><br>
+            <input type="text" name="calculated_host_listings_count" placeholder="Host Listings Count" required="required" /><br>
+            <input type="text" name="neighbourhood_Midtown" placeholder="Is in Midtown? (0 or 1)" required="required" /><br>
+            <input type="text" name="latitude" placeholder="Latitude" required="required" /><br>
+            <input type="text" name="longitude" placeholder="Longitude" required="required" /><br>
+            <input type="text" name="room_type_Private room" placeholder="Private Room? (0 or 1)" required="required" /><br>
+            <input type="text" name="last_review_year" placeholder="Last Review Year" required="required" /><br>
+            <input type="text" name="last_review_month" placeholder="Last Review Month" required="required" /><br>
+            <input type="text" name="last_review_day" placeholder="Last Review Day" required="required" /><br>
+
+            <button type="submit" class="btn btn-primary btn-block btn-large">Predict Rental Price</button>
+        </form>
+
+        <br><br>
+        <h4 style="color:Violet;">
+            {{ prediction_text }} 
+        </h4>
+    </div>
+</body>
+</html>
