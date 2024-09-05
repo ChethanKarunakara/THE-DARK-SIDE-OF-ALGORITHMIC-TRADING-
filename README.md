@@ -9,7 +9,7 @@ In the age of data-driven decision-making, financial markets have become progres
 3. NVIDIA 
 
 # Model :
-Model worked on a Demo Trading environment yieled a 61.56% Efficiency over 1 weeks test run
+Model worked on a Demo Trading environment yieled a 61.56% Efficiency over 1 weeks test run.
 
 ## Moving Averages:
 
