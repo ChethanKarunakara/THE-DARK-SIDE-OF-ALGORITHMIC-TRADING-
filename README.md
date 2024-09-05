@@ -20,9 +20,11 @@ a.	AAPL (Apple).
  <img width="540" alt="image" src="https://github.com/user-attachments/assets/8f98c466-a211-4c30-b9e8-768521e82841">
 
 b.	NFXL (Netflix).
+
  <img width="544" alt="image" src="https://github.com/user-attachments/assets/79d78c52-b2fd-47ce-92e7-bb214ef16b3f">
 
 c.	NVDA (NVIDIA).
+
  <img width="545" alt="image" src="https://github.com/user-attachments/assets/496f8643-8b46-405f-b419-280ed449fb6d">
 
 
